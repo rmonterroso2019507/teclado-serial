@@ -21,7 +21,6 @@
 #define C_3 3
 #define C_4 2
 
-// Defino las leds del display
 #define A 10
 #define B 11
 #define C 12
@@ -95,8 +94,27 @@ digitalWrite(15,HIGH);
 digitalWrite(16,LOW);
 digitalWrite(17,HIGH);
 delay(1000);
-    
     }  
+if (tecla == '*') {
+digitalWrite(10,HIGH);
+digitalWrite(11,LOW);
+digitalWrite(12,LOW);
+digitalWrite(14,HIGH);
+digitalWrite(15,HIGH);
+digitalWrite(16,HIGH);
+digitalWrite(17,HIGH);
+delay(1000);
+  }
+  if (tecla == '#') {
+digitalWrite(10,HIGH);
+digitalWrite(11,LOW);
+digitalWrite(12,LOW);
+digitalWrite(14,LOW);
+digitalWrite(15,HIGH);
+digitalWrite(16,HIGH);
+digitalWrite(17,HIGH);
+delay(1000);
+  }    
 if(tecla == '0')
 { 
 digitalWrite(10,HIGH);// 0
