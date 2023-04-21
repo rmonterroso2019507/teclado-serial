@@ -63,7 +63,7 @@ digitalWrite(16,HIGH);
 digitalWrite(17,HIGH);
 delay(1000);
   }
-if (tecla == 'B') {
+ else if (tecla == 'B') {
 digitalWrite(10,LOW);
 digitalWrite(11,LOW);
 digitalWrite(12,HIGH);
@@ -74,7 +74,7 @@ digitalWrite(17,HIGH);
 delay(1000);
     
   }
-if (tecla == 'C') {
+else if (tecla == 'C') {
 digitalWrite(10,HIGH);
 digitalWrite(11,LOW);
 digitalWrite(12,LOW);
@@ -85,7 +85,7 @@ digitalWrite(17,LOW);
 delay(1000);
 }
 // Tecla D
-   if (tecla == 'D') {
+   else if  (tecla == 'D') {
 digitalWrite(10,LOW);
 digitalWrite(11,HIGH);
 digitalWrite(12,HIGH);
@@ -95,7 +95,7 @@ digitalWrite(16,LOW);
 digitalWrite(17,HIGH);
 delay(1000);
     }  
-if (tecla == '*') {
+else if  (tecla == '*') {
 digitalWrite(10,HIGH);
 digitalWrite(11,LOW);
 digitalWrite(12,LOW);
@@ -105,9 +105,9 @@ digitalWrite(16,HIGH);
 digitalWrite(17,HIGH);
 delay(1000);
   }
-  if (tecla == '#') {
+else if  (tecla == '#') {
 digitalWrite(10,HIGH);
-digitalWrite(11,LOW);
+digitalWrite(11,LOW );
 digitalWrite(12,LOW);
 digitalWrite(14,LOW);
 digitalWrite(15,HIGH);
@@ -115,7 +115,7 @@ digitalWrite(16,HIGH);
 digitalWrite(17,HIGH);
 delay(1000);
   }    
-if(tecla == '0')
+else if (tecla == '0')
 { 
 digitalWrite(10,HIGH);// 0
 digitalWrite(11,HIGH);
@@ -126,7 +126,7 @@ digitalWrite(16,HIGH);
 digitalWrite(17,LOW);
 delay(100);
 }
-if(tecla == '1')
+else if (tecla == '1')
 {
 digitalWrite(10,LOW);//1
 digitalWrite(11,HIGH);
@@ -137,7 +137,7 @@ digitalWrite(16,LOW);
 digitalWrite(17,LOW);
 delay(1000);
 }
-if(tecla == '2')
+else if (tecla == '2')
 {
 digitalWrite(10,HIGH);//2
 digitalWrite(11,HIGH);
@@ -148,7 +148,7 @@ digitalWrite(16,LOW);
 digitalWrite(17,HIGH);
 delay(1000);
 }
-if(tecla == '3')
+else if(tecla == '3')
 {
 digitalWrite(10,HIGH);//3
 digitalWrite(11,HIGH);
@@ -159,7 +159,7 @@ digitalWrite(16,LOW);
 digitalWrite(17,HIGH);
 delay(1000);
 }
-if(tecla == '4')
+else if (tecla == '4')
 {
 digitalWrite(10,LOW);//4
 digitalWrite(11,HIGH);
@@ -170,7 +170,7 @@ digitalWrite(16,HIGH);
 digitalWrite(17,HIGH);
 delay(1000);
 }
-if(tecla == '5')
+else if (tecla == '5')
 {
 digitalWrite(10,HIGH);//5
 digitalWrite(11,LOW);
@@ -181,7 +181,7 @@ digitalWrite(16,HIGH);
 digitalWrite(17,HIGH);
 delay(1000);
 }
-if(tecla == '6')
+else if (tecla == '6')
 {
 digitalWrite(10,HIGH);//6
 digitalWrite(11,LOW);
@@ -192,7 +192,7 @@ digitalWrite(16,HIGH);
 digitalWrite(17,HIGH);
 delay(1000);
 }
-if(tecla == '7')
+else if (tecla == '7')
 {
 digitalWrite(10,HIGH);//7
 digitalWrite(11,HIGH);
@@ -203,7 +203,7 @@ digitalWrite(16,LOW);
 digitalWrite(17,LOW);
 delay(1000);
 }
-if(tecla == '8')
+else if (tecla == '8')
 {
 digitalWrite(10,HIGH);//8
 digitalWrite(11,HIGH);
@@ -214,7 +214,7 @@ digitalWrite(16,HIGH);
 digitalWrite(17,HIGH);
 delay(1000);
 }
-if(tecla == '9')
+else if (tecla == '9')
 {
 digitalWrite(10,HIGH);//9
 digitalWrite(11,HIGH);
